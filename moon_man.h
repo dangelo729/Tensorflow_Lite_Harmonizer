@@ -320,11 +320,7 @@ void updateMoonVibrato()
   if (velocityPressed)
   {
     velocityPressed = false;
-    // I acknowledge that this is a terrible way to do this, but I'm not sure how else to do it. This is where
-    //  buttonPressed is determined, and im too deep. THis code randomizes the formants for the fellas. good luck soldier,.
-    // wow guess im doing the machine learning here as well. fuck me.
 
-    // Okay potentially ignore above comments, im making structural changes
 
     for (int i = 0; i < 4; i++)
     {
